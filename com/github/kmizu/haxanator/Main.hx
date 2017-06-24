@@ -2,6 +2,8 @@ package com.github.kmizu.haxanator;
 
 class Main {
   static public function main() {
-    trace("Hello, World");
+    var parser = new LiteralParser("100");
+    var result = parser.parse("10000");
+    trace(result);
   }
 }
