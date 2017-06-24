@@ -1,3 +1,4 @@
+-cp src/main/haxe
 -main com.github.kmizu.haxanator.Main
 -java java
--cp .
+-lib stx_tuple:0.2.2
